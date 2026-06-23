@@ -11,7 +11,7 @@ the Budget Substrate Profile interoperable.
 ## Contents
 
 | Path | Role |
-|------|------|
+|:-----|:-----|
 | `src/IBoundedAgentAction.sol` | Base interface: register, read, advance, status |
 | `src/IBudgetSubstrate.sol` | Typed extension for the Budget Substrate Profile |
 | `src/IContestableEnvelope.sol` | Optional contestation extension |
@@ -32,7 +32,7 @@ no production substrate: no proof system, no execution kernel, no credit logic.
 ## Frozen ERC-165 interface ids
 
 | Interface | id |
-|-----------|------|
+|:----------|:-----|
 | `IBoundedAgentAction` | `0x3985961d` |
 | `IBudgetSubstrate` | `0x021ca455` |
 | `IContestableEnvelope` | `0xe664d441` |
